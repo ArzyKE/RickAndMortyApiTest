@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".presentation.ui.fragments.character.CharactersFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/characters_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_character" />
+
+    <ProgressBar
+        android:id="@+id/characters_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/sky_blue" />
+
+    <include
+        android:id="@+id/container"
+        layout="@layout/container_not_found"
+        android:visibility="gone" />
+</FrameLayout>

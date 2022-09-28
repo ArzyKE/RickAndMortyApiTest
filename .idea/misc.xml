@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable/bottom_nav_backraund.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable/bottom_nav_bakraund.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable/default_background.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable/detail_backraund.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable/ic_dot.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable/ic_dot_grey.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable/ic_dot_red.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable/ic_eardh.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable/ic_episodes.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable/ic_filter.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable/ic_location.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable/ic_morty_cmith.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/drawable/search_view_backraund.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/abril_falface.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/abril_falfacy.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/abril_fatface.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/anton.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/archivo_black.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/bowlby_one_sk.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/bowlby_uan.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/bungee.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/candal.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/erica_one.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/passion_one.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/risso_one.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/russo_one.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/squada_one.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/tital_one.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/font/titan_one.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/activity_details.xml" value="0.1796875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/activity_main2.xml" value="0.10666666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/container_not_floy.xml" value="0.1796875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/container_not_found.xml" value="0.1796875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/fragment_character.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/fragment_character_detail.xml" value="0.1796875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/fragment_dialog.xml" value="0.1796875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/fragment_episode.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/fragment_episode_detail.xml" value="0.1796875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/fragment_location.xml" value="0.1796875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/fragment_location_detail.xml" value="0.1796875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/fragment_search.xml" value="0.1796875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/item_character.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/item_episode.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/item_load_footer.xml" value="0.1796875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/layout/item_locations.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RickAndMortyApiTest/app/src/main/res/menu/toolbar_menu.xml" value="0.12407407407407407" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

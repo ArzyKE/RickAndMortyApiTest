@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/item_group_padding_size"
+    android:layout_marginTop="@dimen/item_group_padding_size"
+    android:layout_marginEnd="@dimen/item_group_padding_size"
+    android:backgroundTint="@color/dark_gray"
+    app:cardCornerRadius="10dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/item_image"
+        android:layout_width="@dimen/item_imageview_size"
+        android:layout_height="@dimen/item_imageview_size"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/item_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_imageview_size"
+        android:orientation="vertical"
+        android:padding="@dimen/item_group_padding_size">
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/passion_one"
+            android:lines="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/item_title_text_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/item_title_hint" />
+
+        <TextView
+            android:id="@+id/item_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_group_padding_size"
+            android:textColor="@color/white"
+            android:textSize="@dimen/item_status_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_name"
+            tools:text="@string/item_status" />
+
+        <View
+            android:id="@+id/line_between"
+            android:layout_width="@dimen/margin_between_hint_and_text"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="@id/item_status"
+            app:layout_constraintLeft_toRightOf="@id/item_status"
+            app:layout_constraintRight_toLeftOf="@id/item_species"
+            app:layout_constraintTop_toTopOf="@id/item_status" />
+
+        <TextView
+            android:id="@+id/item_species"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_group_padding_size"
+            android:textColor="@color/white"
+            android:textSize="@dimen/item_status_size"
+            app:layout_constraintLeft_toRightOf="@id/item_status"
+            app:layout_constraintTop_toBottomOf="@id/item_name"
+            tools:text="@string/item_gender" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/status_dot"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:src="@drawable/ic_dot"
+            app:layout_constraintBottom_toBottomOf="@id/item_status"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/status_dot"
+            app:layout_constraintTop_toTopOf="@id/item_status" />
+
+        <TextView
+            android:id="@+id/last_know_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fourteen_dp"
+            android:text="@string/last_know"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/item_status_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_status" />
+
+        <TextView
+            android:id="@+id/item_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_between_hint_and_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/item_location_text_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/last_know_location"
+            tools:text="@string/item_location_text" />
+
+        <TextView
+            android:id="@+id/first_seen_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fourteen_dp"
+            android:text="@string/first_seen"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/item_status_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_location" />
+
+        <TextView
+            android:id="@+id/item_episode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_between_hint_and_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/item_location_text_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/first_seen_in"
+            tools:text="@string/item_location_text" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

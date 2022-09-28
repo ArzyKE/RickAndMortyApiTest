@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abril_fatface</item>
+        <item>@font/anton</item>
+        <item>@font/archivo_black</item>
+        <item>@font/bowlby_one</item>
+        <item>@font/bowlby_one_sc</item>
+        <item>@font/bungee</item>
+        <item>@font/candal</item>
+        <item>@font/erica_one</item>
+        <item>@font/passion_one</item>
+        <item>@font/russo_one</item>
+        <item>@font/squada_one</item>
+        <item>@font/titan_one</item>
+    </array>
+</resources>

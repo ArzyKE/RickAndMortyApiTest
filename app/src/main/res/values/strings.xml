@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Rick &amp; Morty</string>
+    <string name="characters">Персонажи</string>
+    <string name="locations">Локации</string>
+    <string name="episodes">Эпизоды</string>
+    <string name="search">Поиск</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_title">Rick &amp; Morty</string>
+    <string name="item_title_hint">Jonatan Gray</string>
+    <string name="item_status">Alive</string>
+    <string name="no_connection_network_text">Нет подключения к Интернету!</string>
+    <string name="retry">RETRY</string>
+    <string name="last_know">Last known location:</string>
+    <string name="item_gender">Human</string>
+    <string name="item_location_text">Earth</string>
+    <string name="first_seen">First seen in:</string>
+    <string name="item_type_text">Type:</string>
+    <string name="item_dimension_text">Dimension:</string>
+    <string name="item_created_text">Created:</string>
+    <string name="was_created_in">Was created in:</string>
+    <string name="item_episode_text">Episode</string>
+    <string name="air_date">The air date was:</string>
+    <string name="searching">Поиск...</string>
+    <string name="no_results_found">Результатов не найдено!</string>
+    <string name="error_number">404</string>
+    <string name="write_type_here">Write type here…</string>
+    <string name="write_dimension_here">Write dimension here…</string>
+    <string name="write_episode_number_here">Write episode number here…</string>
+    <string name="filter_apply_button_text">ПРИМЕНИТЬ</string>
+    <string name="characters_filter_type">Characters</string>
+    <string name="locations_filter_type">Locations</string>
+    <string name="episodes_filter_type">Episodes</string>
+    <string name="search_filter_type">Search</string>
+    <string name="title_activity_main">Leanback MainActivity</string>
+    <string name="browse_title">Videos by Your Company</string>
+    <string name="related_movies">Related Videos</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+</resources>

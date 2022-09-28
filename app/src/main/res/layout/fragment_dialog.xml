@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/darkest_gray"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/thirty_eight_dp"
+    app:cardCornerRadius="@dimen/twenty_five_dp"
+    tools:context=".presentation.ui.dialogs.FilterDialogFragment">
+
+    <LinearLayout
+        android:id="@+id/filter_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="@dimen/item_group_padding_size"
+        android:paddingHorizontal="@dimen/thirty_eight_dp">
+
+        <TextView
+            android:id="@+id/filter_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/item_group_padding_size"
+            android:fontFamily="@font/passion_one"
+            android:textSize="@dimen/bottom_nav_icon_size" />
+
+        <EditText
+            android:id="@+id/et_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/item_group_padding_size"
+            android:hint="@string/write_type_here"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_episode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/item_group_padding_size"
+            android:hint="@string/write_episode_number_here" />
+
+        <EditText
+            android:id="@+id/et_dimension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/item_group_padding_size"
+            android:hint="@string/write_dimension_here" />
+
+        <Spinner
+            android:id="@+id/status_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/item_group_padding_size" />
+
+        <Spinner
+            android:id="@+id/gender_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/thirty_eight_dp" />
+
+        <Button
+            android:id="@+id/apply_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:text="@string/filter_apply_button_text"
+            android:textColor="@color/near_black" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

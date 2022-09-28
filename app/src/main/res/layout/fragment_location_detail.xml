@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/item_group_padding_size"
+    android:layout_marginTop="@dimen/item_group_padding_size"
+    android:layout_marginEnd="@dimen/item_group_padding_size"
+    android:backgroundTint="@color/darkest_gray"
+    app:cardCornerRadius="@dimen/item_group_padding_size"
+    tools:context=".presentation.ui.fragments.location.detail.LocationDetailFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/locations_detail_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/detail_backraund"
+        android:padding="@dimen/twenty_five_dp">
+
+        <TextView
+            android:id="@+id/detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/twenty_five_dp"
+            android:fontFamily="@font/passion_one"
+            android:textColor="@color/white"
+            android:textSize="@dimen/thirty_dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detail_type"
+            tools:text="@string/item_title_hint" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_planet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/two_dp"
+            android:src="@drawable/ic_earth"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detail_created" />
+
+        <TextView
+            android:id="@+id/detail_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/passion_one"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="@dimen/thirty_five_sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/item_type_text" />
+
+        <TextView
+            android:id="@+id/was_created_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fourteen_sp"
+            android:text="@string/was_created_in"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/item_status_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detail_dimension" />
+
+        <TextView
+            android:id="@+id/detail_created"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/passion_one"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/was_created_in"
+            tools:text="@string/item_created_text" />
+
+        <TextView
+            android:id="@+id/dimension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fourteen_dp"
+            android:text="@string/item_dimension_text"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/fourteen_sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detail_name" />
+
+        <TextView
+            android:id="@+id/detail_dimension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/passion_one"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dimension"
+            tools:text="@string/item_dimension_text" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

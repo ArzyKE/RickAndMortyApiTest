@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_imageview_size">150dp</dimen>
+    <dimen name="item_group_padding_size">10dp</dimen>
+    <dimen name="item_title_text_size">17sp</dimen>
+    <dimen name="bottom_nav_icon_size">25sp</dimen>
+    <dimen name="item_status_size">10sp</dimen>
+    <dimen name="item_location_text_size">12sp</dimen>
+    <dimen name="margin_between_hint_and_text">4dp</dimen>
+    <dimen name="fourteen_dp">14dp</dimen>
+    <dimen name="two_dp">2dp</dimen>
+    <dimen name="eighteen_dp">18dp</dimen>
+    <dimen name="thirty_eight_dp">38dp</dimen>
+    <dimen name="seventeen_dp">17dp</dimen>
+    <dimen name="three_dp">3dp</dimen>
+    <dimen name="fifty_two_dp">52dp</dimen>
+    <dimen name="thirty_dp">30sp</dimen>
+    <dimen name="twenty_five_dp">25dp</dimen>
+    <dimen name="twenty_sp">20sp</dimen>
+    <dimen name="fourteen_sp">14sp</dimen>
+    <dimen name="thirty_five_sp">35sp</dimen>
+</resources>
